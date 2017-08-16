@@ -1,8 +1,7 @@
 <?php
 
-  echo "I dont know";
-  $hubVerifyToken = "EAATQVDgjwJ0BADbefQ8NonZBOgTuYhVg7ahJrhAs1VyrH7OO6oosljTb1c33jqukPgnueNsDeAUaAhsj9dnb1JaJHNvQKZCPw2ZB1OL56WkD8BDZBo0bqADSRZCxJK34B1yojMFORCVSroQqDATze4j5ZABZBTHaI41Dpqmf59s8wZDZD";
-  $accessToken = "EAATQVDgjwJ0BADbefQ8NonZBOgTuYhVg7ahJrhAs1VyrH7OO6oosljTb1c33jqukPgnueNsDeAUaAhsj9dnb1JaJHNvQKZCPw2ZB1OL56WkD8BDZBo0bqADSRZCxJK34B1yojMFORCVSroQqDATze4j5ZABZBTHaI41Dpqmf59s8wZDZD";
+  $hubVerifyToken = "TOKEN_NAME";
+  $accessToken = "TOKEN_NAME";
 
 
   if ($_REQUEST['hub_verify_token'] === $hubVerifyToken) {
