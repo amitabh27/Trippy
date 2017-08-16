@@ -1,0 +1,34 @@
+install casperjs folder and phantomjs folder in C drive
+update path variables
+phantomjs --version,casperjs --version
+Running=casperjs file_name.js
+
+Specs:
+casper=1.1.4
+phantom=1.9.7
+
+Running=
+First Time:
+C:\Users\amitabh\Desktop\Trippy>phantomjs.exe --config=config.json casperjs/bin/bootstrap.js --casper-path=casperjs --cli casper_testing.js
+----------------------------------------------------------------------------------------------------------------------------------------
+
+1. installer nodejs --->run exe
+2. restart machine
+3. goto Trippy folder in cmd--->npm i request---->node_modules will be created in Trippy
+3a.  npm i cheerio
+
+4. npm install scraperjs ----->Internally it uses Cheerio for static scraping and Phantom.js for dynamic scraping
+
+5. Install all these using npm:
+
+async, for flow control
+request, to make HTTP requests, again, if you want more complex requests see it's documentation
+phantom + phantomjs, phantom is an awesome module that links node to phantom, used in the DynamicScraper
+cheerio, light and fast DOM manipulation, used to implement the StaticScraper
+jquery, to include jquery in the DynamicScraper
+although Routes.js is great, scraperjs doesn't use it to maintain it's "interface layout", 
+but the code to transform the path given on the on promise to regular expressions is from them
+
+4. running=node home.js
+
+----------------------------------------------------------------------------------------------------------------------------------------
