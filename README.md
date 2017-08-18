@@ -568,6 +568,12 @@ Done
 
 ***************************************************************************************************************************************
 
+Screenshot
+_______________________________________________________________________________________________________________________________________
+
+![trippy](promotional_image.jpg?raw=true "Trippy")
+
+
 These Data Sets can then be used to answer user Queries like in case of flights :
 1. User needs to check flights of only a specific AirLine
 2. User needs to leave the source city in a specific time slot of a day say 3pm to 6pm
